@@ -5,8 +5,8 @@ dotnet publish -r osx-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed
 
 copy README.md bin\win-x64\readme.txt
 copy README.md bin\linux-x64\readme.txt
-copy README.md bin\win-x64\readme.txt
 copy README.md bin\linux-arm\readme.txt
+copy README.md bin\osx-x64\readme.txt
 
 cd MkvChapterGenerator
 

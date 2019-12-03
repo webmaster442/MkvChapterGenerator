@@ -66,7 +66,7 @@ namespace MkvChapterGenerator
                     if (line != null)
                     {
                         string trimed = line.Trim();
-                        if (string.IsNullOrEmpty(trimed))
+                        if (!string.IsNullOrEmpty(trimed))
                         {
                             lines.Add(trimed);
                         }
